@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { Cards, Chart, CountryPicker, RangePicker } from './components';
 import styles from './App.module.css';
 import { fetchDailyData, fetchData } from './api';
